@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Configurações do Header */
+
+header {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 50px;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 70px;
+}
+
+nav a {
+    display: inline-block;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: solid #000000 2px;
+    transition: border-color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+    transform: translateY(-3px) translateX(3px);
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+/* Configurações da div esquerda */
+
+.h1 {
+    font-size: 60px;
+    text-align: left;
+}
+
+.greatingtext {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenttext {
+    margin-bottom: 80px;
+    margin-left: 60px;
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenttext p {
+    display: inline-block;
+}
+
+.social-midia img {
+width: 45px;
+}
+
+#linkedin:hover, #github:hover, #instagram:hover, #facebook:hover, #whatsapp:hover {
+    filter: brightness(1.5);
+}
+
+/* configuração da mãozinha */
+
+.hand-icon {
+    display: inline-block;
+    vertical-align: bottom;
+    animation: waving 0.6s infinite; 
+    transform-origin: bottom right; 
+  }
+
+  @keyframes waving {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(15deg);
+    }
+  }
+
+/* Configurações da div direita */
+
+.greatingimg {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    height: 480px;
+}
+
+
+/* Configurações dos emoticons da div textos inicial */
+#pilha-de-livros {
+    width: 15px;
+}
+
+#robotica {
+    width: 15px;
+}
+
+#informatica {
+    width: 15px;
+}
+
+
+/* Configurações da foto na segunda div */
+
+.imgdev img {
+    width: 700px;
+}
+
