@@ -220,10 +220,26 @@ width: 45px;
     box-sizing: border-box;
     width: 50%;
     height: 480px;
+    padding-left: 75px;
+    padding-top: 75px;
 }
 
 .conteudo2e img {
     width: 650px;
     margin-top: 100px;
     margin-left: 50px;
+}
+
+.hardskills li{
+    list-style: none;   
+    display: inline-block;
+}
+
+.hardskills img{
+    width: 50px;
+}
+
+.hardskills-icon{
+    color: gray;
+    font-size: 10px;
 }
