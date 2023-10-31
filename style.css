@@ -243,3 +243,22 @@ width: 45px;
     color: gray;
     font-size: 10px;
 }
+
+
+/* ----------------------------------------------------------------------------------------------------------------------*/
+/* começa o conteúdo 3*/
+
+
+.conteudo3{
+    border: #000000 2px solid;
+    display: flex;
+}
+
+.colunaA{
+    width: 50%;
+    
+}
+
+.colunaB{
+    width: 50%;
+}
