@@ -116,7 +116,7 @@ width: 45px;
 
 .botaocontato, .botaoresumo {
     display: inline-block;
-    width: 26%;      /* Aqui é onde eu ajusto a distancia horizontal entre os botoes */
+    width: 23%;      /* Aqui é onde eu ajusto a distancia horizontal entre os botoes */
     margin-top: 30px;
 }
 
@@ -150,6 +150,7 @@ width: 45px;
     text-decoration: none;
     transform: translateY(-3px) translateX(3px);
     font-family: 'Montserrat', sans-serif;
+    box-shadow: 5px 5px 5px 2px #000;
     
     
 }
@@ -282,10 +283,32 @@ padding-left: 250px;
 
 .conteudo4{
     border: #000000 2px solid;
-    height: 480px; 
+    height: 570px; 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
 }
 
-.AP, .BP, .CP, .DP, .EP, .FP{
+.projeto{
+    margin-left: 50px;
+    margin-right: 50px;
     border: #000000 1px solid;
-    height: 250px;
+    border-radius: 10px;
+    width: 330px;
+    height: 200px;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+.projeto:hover{
+    transform: translateY(-3px) translateX(3px);
+    box-shadow: 10px 10px 5px 2px #000;
+}
+
+.projeto img{
+    width: 25px;
 }
