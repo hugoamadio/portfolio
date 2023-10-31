@@ -116,7 +116,7 @@ width: 45px;
 
 .botaocontato, .botaoresumo {
     display: inline-block;
-    width: 28%;      /* Aqui é onde eu ajusto a distancia horizontal entre os botoes */
+    width: 26%;      /* Aqui é onde eu ajusto a distancia horizontal entre os botoes */
     margin-top: 30px;
 }
 
@@ -248,17 +248,44 @@ width: 45px;
 /* ----------------------------------------------------------------------------------------------------------------------*/
 /* começa o conteúdo 3*/
 
+.experiencies{
+display: inline-flex;
+justify-content: center;
+padding-top: 50px;
+padding-left: 250px;
+}
 
-.conteudo3{
+.content{
+    display: inline-flex;
     border: #000000 2px solid;
-    display: flex;
+    width: 100%;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
 }
 
-.colunaA{
-    width: 50%;
-    
+#carouselExampleCaptions h5, #carouselExampleCaptions p{
+    color: #000000;
 }
 
-.colunaB{
-    width: 50%;
+#carouselExampleCaptions{
+    border: #000000 1px solid;
+}
+
+.carousel{
+    border-radius: 20px;
+}
+
+.carousel img{
+    border-radius: 20px;
+}
+
+.conteudo4{
+    border: #000000 2px solid;
+    height: 480px; 
+}
+
+.AP, .BP, .CP, .DP, .EP, .FP{
+    border: #000000 1px solid;
+    height: 250px;
 }
