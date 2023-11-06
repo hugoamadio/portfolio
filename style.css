@@ -318,6 +318,7 @@ padding-left: 250px;
     border: #000 solid 2px;
     display: flex;
     justify-content: center;
+    height: 171px;
 }
 
 .more button{
@@ -351,4 +352,29 @@ padding-left: 250px;
     transform: translateY(-3px) translateX(3px);
     font-family: 'Montserrat', sans-serif;
     box-shadow: 5px 5px 5px 2px #000;
+}
+
+.certificados h1{
+    margin-left: 150px;
+}
+
+.centent-certificados{
+    border: #000000 2px solid;
+    height: 570px; 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.divcertificado{
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;}
+
+.divcertificado img:hover{
+    -webkit-filter:grayscale(100%);
+    transition: 0.4s;
 }
