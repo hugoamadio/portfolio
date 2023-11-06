@@ -372,9 +372,38 @@ padding-left: 250px;
 .divcertificado{
     width: 330px;
     height: 200px;
-    border-radius: 10px;}
+    border-radius: 10px;
+}
 
 .divcertificado img:hover{
     -webkit-filter:grayscale(100%);
     transition: 0.4s;
+}
+
+.blogs{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.blogs h4{
+    color: gray;
+}
+
+.contentblogs{
+    height: 570px;
+    width: 100%;
+    border: #000 solid 2px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.blog{
+    width: 330px;
+    height: 200px;
+    border: #000 2px solid;
+    border-radius: 10px;
 }
